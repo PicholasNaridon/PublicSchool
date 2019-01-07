@@ -5,13 +5,14 @@ using System.Threading.Tasks;
 
 namespace PublicSchool.Models
 {
-    public class Teacher
+    public class Parent
     {
-        public int TeacherId { get; set; }
+        public int ParentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string Email { get; set; }
-        public ICollection<Course> Courses { get; set; }
+        public string HomePhone { get; set; }
+        public string EmergencyContact { get; set; }
+        public Student Student { get; set; }
 
     }
 }

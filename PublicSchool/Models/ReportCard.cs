@@ -7,5 +7,8 @@ namespace PublicSchool.Models
 {
     public class ReportCard
     {
+        public int ReportCardId { get; set; }
+        public Student Student { get; set; }
+        public ICollection<Grade> Grades { get; set; }
     }
 }

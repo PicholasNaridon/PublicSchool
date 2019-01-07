@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PublicSchool.Models
 {
-    public class Quiz
+    public class AssignmentType
     {
     }
 }

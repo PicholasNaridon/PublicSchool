@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace PublicSchool.Models
 {
-  public enum Grades
+  public enum LetterGrades
     {
+      None,
       APlus,
       A,
       AMinus,

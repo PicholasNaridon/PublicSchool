@@ -7,5 +7,11 @@ namespace PublicSchool.Models
 {
     public class Student
     {
+        public int StudentId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public Year Year { get; set; }
+        public ICollection<Course> Courses { get; set; }
+        public Parent Parent { get; set; }
     }
 }
