@@ -9,7 +9,5 @@ namespace PublicSchool.Models
     {
         public int GradeId { get; set; }
         public double NumGrade { get; set; }
-        public Assignment MyProperty { get; set; }
-        public Student Student { get; set; }
     }
 }

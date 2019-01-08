@@ -5,7 +5,13 @@ using System.Threading.Tasks;
 
 namespace PublicSchool.Models
 {
-    public class AssignmentType
+    public enum AssignmentType
     {
+        Quiz,
+        Paper,
+        Test,
+        Homework,
+        Participation,
+        Project
     }
 }

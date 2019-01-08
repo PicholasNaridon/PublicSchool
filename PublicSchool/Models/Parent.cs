@@ -12,6 +12,7 @@ namespace PublicSchool.Models
         public string LastName { get; set; }
         public string HomePhone { get; set; }
         public string EmergencyContact { get; set; }
+        public int StudentId { get; set; }
         public Student Student { get; set; }
 
     }
